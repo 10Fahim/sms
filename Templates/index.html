@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index page</title>
+</head>
+<body>
+<form action="readinex"method="post">
+    {% csrf_token %}
+    First Number<input type="text" name="tbfn">
+    <br>
+    Second Number<input type="text" name="tbsn">
+    <br>
+    <input type="submit" value="Find Biggest">
+
+</form>
+</body>
+</html>

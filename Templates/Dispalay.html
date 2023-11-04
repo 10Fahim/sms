@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dispaly page</title>
+</head>
+<body>
+First number {{ firstnumber }}
+<br>
+Second number {{ secondnumber}}
+{%  if firstnumber > secondnumber %}
+<h1> biggest is{{firstnumber}}</h1>
+{% else}
+<h1> Biggest is{{secondnumber}}</h1>
+{% endif %}
+</body>
+</html>
